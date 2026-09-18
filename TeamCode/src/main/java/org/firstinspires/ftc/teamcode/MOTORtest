@@ -14,4 +14,7 @@ public class MOTORtest extends LinearOpMode;
     @Override
     public void runOpMode() {
 
-    motor = hardwareMap.get(DcMotor.class, "motor");
+    motor = hardwareMap.get(DcMotor.class, "motor1");
+    motor = hardwareMap.get(DcMotor.class, "motor2");
+    motor = hardwareMap.get(DcMotor.class, "motor3");
+    motor = hardwareMap.get(DcMotor.class, "motor4");
