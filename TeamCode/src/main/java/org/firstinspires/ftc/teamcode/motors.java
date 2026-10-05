@@ -9,9 +9,13 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
 public class motors extends LinearOpMode {
 
     DcMotor frontLeft;
+    //yellow
     DcMotor frontRight;
+    //blue
     DcMotor backLeft;
+    //red
     DcMotor backRight;
+    //green
 
     @Override
     public void runOpMode() {
@@ -62,8 +66,8 @@ public class motors extends LinearOpMode {
             }
 
 // Set motor powers
-            frontLeft.setPower(fl);
-            frontRight.setPower(fr);
+            frontLeft.setPower(-fl);
+            frontRight.setPower(-fr);
             backLeft.setPower(bl);
             backRight.setPower(br);
         }
